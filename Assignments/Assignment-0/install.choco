@@ -1,0 +1,94 @@
+New-Item -Path C:\ -Name Temp -ItemType Directory -ErrorAction SilentlyContinue
+
+New-Item -Path C:\ -Name tools -ItemType Directory -ErrorAction SilentlyContinue
+New-Item -Path C:\ -Name payloads -ItemType Directory -ErrorAction SilentlyContinue
+New-Item -Path C:\ -Name dev -ItemType Directory -ErrorAction SilentlyContinue
+New-Item -Path C:\ -Name malware -ItemType Directory -ErrorAction SilentlyContinue
+
+# Disable Defender for Downloads, tools, payloads, dev and malware
+# Defender
+
+$Downloads = Get-ItemPropertyValue 'HKCU:\software\microsoft\windows\currentversion\explorer\shell folders\' -Name '{374DE290-123F-4565-9164-39C4925E467B}'
+
+Add-MpPreference -ExclusionPath $Downloads
+Add-MpPreference -ExclusionPath "C:\payloads\"
+Add-MpPreference -ExclusionPath "C:\tools\"
+Add-MpPreference -ExclusionPath "C:\dev\"
+Add-MpPreference -ExclusionPath "C:\malware\"
+
+#plz no beacon to mother ship. thx.
+Set-MpPreference -MAPSReporting Disabled
+# Turn off auto submission
+Set-MpPreference -SubmitSamplesConsent NeverSend
+
+# Packages you may find useful 
+# For just about everything you could ever want, check out FlareVM
+
+choco feature enable -n allowGlobalConfirmation
+
+choco install openjdk11
+choco install regshot
+choco install 7zip
+choco install make
+choco install git
+choco install sysinternals --params "/InstallDir:C:\tools\sysinternals"
+choco install putty  --params "/InstallDir:C:\tools\putty"
+choco install ghidra --params "/InstallDir:C:\ghidra"
+choco install pestudio  --params "/InstallDir:C:\tools\pestudio"
+choco install x64dbg.portable
+choco install mingw
+# optional if you want to view the results on the same machine
+
+#choco install wireshark --params "/InstallDir:C:\tools\wireshark"
+#choco install winpcap 
+
+choco install dnspy  --params "/InstallDir:C:\tools\dnspy"
+choco install vscode
+choco install windbg
+choco install zig 
+choco install notepadplusplus
+choco install googlechrome
+choco install processhacker
+choco install python3
+
+
+## IE first run
+
+New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer"
+
+New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer\Main"
+
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer\Main" -Name DisableFirstRunCustomize -Value 1
+
+
+# Setup Isolated Env
+# set windows host to 10.10.10.3
+# set remnux to 10.10.10.2
+# remnux is the default gateway 
+
+# Set a static IP for Windows box 
+netsh interface ip set address "Ethernet 3" static 10.10.10.3 255.255.255.0 10.10.10.2
+
+#route add -p 10.8.0.0 mask 255.255.255.0 10.10
+
+#route add -p 10.9.0.0 mask 255.255.255.0 10.10.10.2
+
+# set the dns server 
+route add -p 10.10.110.0 mask 255.255.255.0 10.10.10.2
+netsh interface ip set dns name="Ethernet 3" static 10.10.10.2
+Add-Content C:\Windows\System32\drivers\etc\hosts "10.10.10.2 remnux"
+
+
+# always read the setup script
+& 'C:\Program Files\Google\Chrome\Application\chrome.exe' https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+New-Item -Path C:\ -Name BGInfo -ItemType Directory -ErrorAction SilentlyContinue
+
+Invoke-WebRequest -Uri 'https://github.com/kbsec/CS-501-2021/raw/main/Assignments/Assignment-0/misc/wallpaper.jpg' -OutFile "C:\BGInfo\wallpaper.jpg"
+
+Invoke-WebRequest -Uri 'https://github.com/kbsec/CS-501-2021/blob/main/Assignments/Assignment-0/misc/bginfo.bgi?raw=true"
+
+New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\ -Name BGInfo -Value "C:\tools\sysinternals\Bginfo64.exe /accepteula /iC:\BGInfo\bginfo.bgi /timer:0"
+# nj reading :-)
+# note most of the malware you see in this class will not run unless this file exists at  this path :) 
+new-item C:\malware\ch0nky.txt
