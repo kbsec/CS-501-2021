@@ -243,3 +243,8 @@ int main(int argc, char* argv[]){
 Use iteration, not recursion.
 In the comments, explain why when you run the above code with an input of 46, nothing happens. What is going wrong? Be specific. 
 
+
+# Part 3
+Required reading:
+https://www.nacdl.org/Landing/ComputerFraudandAbuseAct
+
