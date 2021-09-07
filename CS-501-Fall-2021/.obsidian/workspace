@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "d99d215610250a9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d703cdf20ec617d6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Assignments/Assignment 0/README.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2986c9975b380fca",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9e1f05e33879840",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0719a1497dfee0ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e89a33fdaf7c2e1b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8ad501d4b6358d1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bf0f421f092e4e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b405557a8c4e8d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Assignments/Assignment 0/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d703cdf20ec617d6",
+  "lastOpenFiles": [
+    "Assignments/Assignment 0/README.md",
+    "Assignments/Assignment 0/Pasted image 20210907120101.png",
+    "Assignments.md",
+    "Pasted image 20210907121559.png",
+    "Pasted image 20210907120637.png",
+    "Pasted image 20210907115127.png",
+    "Untitled.md",
+    "Assignments/Untitled.md"
+  ]
+}
