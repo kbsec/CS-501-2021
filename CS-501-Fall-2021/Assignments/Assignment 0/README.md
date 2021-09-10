@@ -76,6 +76,7 @@ If not, look for the name of the 3rd interface and replace its  `enp0s8` with it
 
 From there, run the following to create a configuration file that sets your static ip on this itnerface
 ```bash
+# this creates a new yaml file 
 cat >> /etc/netplan/malware-lab.yaml << EOL
 network:
         version: 2
@@ -88,11 +89,16 @@ network:
 EOL
 sudo netplan apply
 ```
+
+if the above failed, you can also run the following as root
+```
+echo bmV0d29yazoKICAgICAgICB2ZXJzaW9uOiAyCiAgICAgICAgcmVuZGVyZXI6IG5ldHdvcmtkCiAgICAgICAgZXRoZXJuZXRzOgogICAgICAgICAgICAgICAgZW5wMHM4OgogICAgICAgICAgICAgICAgICAgICAgICBkaGNwNDogbm8KICAgICAgICAgICAgICAgICAgICAgICAgYWRkcmVzc2VzOiAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAtIDEwLjEwLjEwLjIvMjQKbmV0d29yazoKICAgICAgICB2ZXJzaW9uOiAyCiAgICAgICAgcmVuZGVyZXI6IG5ldHdvcmtkCiAgICAgICAgZXRoZXJuZXRzOgogICAgICAgICAgICAgICAgZW5wMHM4OgogICAgICAgICAgICAgICAgICAgICAgICBkaGNwNDogbm8KICAgICAgICAgICAgICAgICAgICAgICAgYWRkcmVzc2VzOiAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAtIDEwLjEwLjEwLjIvMjQKbmV0d29yazoKICAgICAgICB2ZXJzaW9uOiAyCiAgICAgICAgcmVuZGVyZXI6IG5ldHdvcmtkCiAgICAgICAgZXRoZXJuZXRzOgogICAgICAgICAgICAgICAgZW5wMHM4OgogICAgICAgICAgICAgICAgICAgICAgICBkaGNwNDogbm8KICAgICAgICAgICAgICAgICAgICAgICAgYWRkcmVzc2VzOiAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAtIDEwLjEwLjEwLjIvMjQK | base64 -d > /etc/netplan/malware-lab.yaml
+```
 Afterwards, run `accept-all-ips start enp0s8` to allow connections  from all IPs to this machine on that itnerface.
 Next, run
 ```
-cp /etc/interim/inetsim.conf /etc/interim/inetsim.conf.bak
-nano /etc/interim/inetsim.conf
+cp /etc/inetsim/inetsim.conf /etc/inetsim/inetsim.conf.bak
+nano /etc/inetsim/inetsim.conf
 ```
 Modify the following:
 - enable the DNS server by uncommenting `start_service dns`
@@ -168,6 +174,8 @@ Required Reading:
 
 
 # Part 2 (Graded)
+If you have enough space on your machine, you are encouraged to copy your windows environment, and have both an analysis VM and development VM. For this class however, it is OK to perform both taks in the primary windows VM. 
+Also, since both of the compilers this class will support support cross compilation, you can develop your code on your host OS, then simply load it into your virtual machine. 
 ## Question 0
 Consider the following C++ code 
 ```c++
