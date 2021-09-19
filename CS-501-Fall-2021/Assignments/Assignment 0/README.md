@@ -125,7 +125,7 @@ Next, open a box starter shell and run (supply the correct path to the choco scr
 You are **strongly** encouraged to read this install script. 
 ```powershell
 $pw = Get-Credential $env:USERNAME
-$choco_url = ""
+$choco_url = "https://raw.githubusercontent.com/kbsec/CS-501-2021/main/Assignments/Assignment-0/install.choco"
 Install-BoxstarterPackage -PackageName $choco_url  -Credential $pw
 ```
 
