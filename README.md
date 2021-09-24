@@ -38,3 +38,21 @@ Start Time : Sep 16, 2021 01:50 PM
 
 Meeting Recording:
 https://bostonu.zoom.us/rec/share/bSwzft4O--_wKsvTKf5xZ9rNyu0ZrahETJ_M8f3xGPoX6hOzDU5RoRLJ_jQYpL1q.Tx8hWYhHr9xbcMyU
+
+
+Topic: CS501
+Start Time : Sep 23, 2021 01:56 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/ynb3enXCdUlZzL1fsGX-Q0onalu1gvOPbkEmo_zocMZXUA53mzmfdrQeW9Y9hkTe.syMBKCJgc7GIaCJV
+
+
+
+Topic: CS501
+Start Time : Sep 21, 2021 01:55 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/7u2Cr7QUFGsUh6VU09RNxJe2uBJP9UKXQOlvai49PC1nAjWRyRETaG-QsxJRSQkr.2erbGoiUJbwBxRDA
+
+
+
