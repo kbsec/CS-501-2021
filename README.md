@@ -1,4 +1,19 @@
 # CS 501 
+This is the plublic repository for [CS-501](https://www.bu.edu/cs/undergraduate/undergraduate-life/courses/topics/):  Introduction to Malware, Thread Hunting and Offensive Capabilities Development
+
+## Brief
+The class introduces students to the wild world of offensive capabilities development and cyber threat hunting by taking on the role of both attacker and defender to better understand various stages of cyber attacks. Focusing on the Windows operating system, students will create and analyze malware in the context of combating a simulated threat actor APT-ChonkyBear in addition to creating their own tools to emulate their capabilities.
+
+## Requirements 
+- C-like systems programining language, x86 Assembly, python
+## Reccomended Pre-reqs
+- A computer networks course 
+- C++
+
+
+# Course Authors:
+[Winnona](https://twitter.com/__winn)
+[Kai](https://twitter.com/KB_Intel)
 
 
 # Lecture Recordings 
@@ -41,18 +56,47 @@ https://bostonu.zoom.us/rec/share/bSwzft4O--_wKsvTKf5xZ9rNyu0ZrahETJ_M8f3xGPoX6h
 
 
 Topic: CS501
+Start Time : Sep 21, 2021 01:55 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/7u2Cr7QUFGsUh6VU09RNxJe2uBJP9UKXQOlvai49PC1nAjWRyRETaG-QsxJRSQkr.2erbGoiUJbwBxRDA
+
+Topic: CS501
 Start Time : Sep 23, 2021 01:56 PM
 
 Meeting Recording:
 https://bostonu.zoom.us/rec/share/ynb3enXCdUlZzL1fsGX-Q0onalu1gvOPbkEmo_zocMZXUA53mzmfdrQeW9Y9hkTe.syMBKCJgc7GIaCJV
 
 
-
 Topic: CS501
-Start Time : Sep 21, 2021 01:55 PM
+Start Time : Sep 28, 2021 02:01 PM
 
 Meeting Recording:
-https://bostonu.zoom.us/rec/share/7u2Cr7QUFGsUh6VU09RNxJe2uBJP9UKXQOlvai49PC1nAjWRyRETaG-QsxJRSQkr.2erbGoiUJbwBxRDA
+https://bostonu.zoom.us/rec/share/JuXxgbBhd5j2XgPL9KzmRDKSbWoW0pXSsHz4ckuCpaXLMnQmqTz0zMj0iIKr6xL4.9U1o2JurBFnI1RXz
+
+Topic: CS501
+Start Time : Sep 30, 2021 01:57 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/97jXaKO-595JCgCNrXUT_5PhEuLaC0x9Y4FGh9FoVRPXEPYpB7eZGc7p_8D1AWfl.6mBnsBt9zRhzkIev
 
 
+Topic: CS501
+Start Time : Oct 5, 2021 01:56 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/JJLSELwUqIQKFLuJAZXpNvvRNlpy8F_aQRnLnLWQiDoTSGohYuMRZIRKmMTpCd9v.0oNlEwIP3EjOxfDa
+
+
+Topic: CS501
+Start Time : Oct 7, 2021 02:01 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/oJLt8P60h6c4UvSjugzkBcfZppLg1MO1zI7szYht1lD4J2HEtznXXs7hVziDFv0w.Qch7EHYhaFjdCDQG
+
+
+
+
+## Feedback, questions...etc
+Feel free to reach out on Keybase (KBintel)
 
