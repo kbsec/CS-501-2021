@@ -86,7 +86,7 @@ New-Item -Path C:\ -Name BGInfo -ItemType Directory -ErrorAction SilentlyContinu
 
 Invoke-WebRequest -Uri 'https://github.com/kbsec/CS-501-2021/raw/main/Assignments/Assignment-0/misc/wallpaper.jpg' -OutFile "C:\BGInfo\wallpaper.jpg"
 
-Invoke-WebRequest -Uri 'https://github.com/kbsec/CS-501-2021/blob/main/Assignments/Assignment-0/misc/bginfo.bgi?raw=true"
+Invoke-WebRequest -Uri "https://github.com/kbsec/CS-501-2021/blob/main/Assignments/Assignment-0/misc/bginfo.bgi?raw=true"
 
 New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\ -Name BGInfo -Value "C:\tools\sysinternals\Bginfo64.exe /accepteula /iC:\BGInfo\bginfo.bgi /timer:0"
 # nj reading :-)
