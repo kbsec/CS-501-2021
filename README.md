@@ -1,12 +1,12 @@
 # CS 501 
-This is the plublic repository for [CS-501](https://www.bu.edu/cs/undergraduate/undergraduate-life/courses/topics/):  Introduction to Malware, Thread Hunting and Offensive Capabilities Development
+This is the public repository for [CS-501](https://www.bu.edu/cs/undergraduate/undergraduate-life/courses/topics/):  Introduction to Malware, Thread Hunting and Offensive Capabilities Development
 
 ## Brief
 The class introduces students to the wild world of offensive capabilities development and cyber threat hunting by taking on the role of both attacker and defender to better understand various stages of cyber attacks. Focusing on the Windows operating system, students will create and analyze malware in the context of combating a simulated threat actor APT-ChonkyBear in addition to creating their own tools to emulate their capabilities.
 
 ## Requirements 
-- C-like systems programining language, x86 Assembly, python
-## Reccomended Pre-reqs
+- C-like systems programing language, x86 Assembly, python
+## Recommended Pre-reqs
 - A computer networks course 
 - C++
 
@@ -95,6 +95,25 @@ Meeting Recording:
 https://bostonu.zoom.us/rec/share/oJLt8P60h6c4UvSjugzkBcfZppLg1MO1zI7szYht1lD4J2HEtznXXs7hVziDFv0w.Qch7EHYhaFjdCDQG
 
 
+Topic: CS501
+Start Time: Oct 14, 2021 02:00 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/QvUMfc0oqsWC5BLv4VO0rCPn-mFLpKAo9Skrys2f2IBntBCvOGOrb0aXOsfAXPxM.hX12je3Lx61m7qY5
+
+
+Topic: CS501
+Start Time: Oct 19, 2021 02:01 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/xnkSaSyMfkRD2P2-Brxmh81HiGvgx3rioo9-kpka-_G4vdye7hWUCjmsMLvrdnID.Wc-tI9NlOwcd9DBL
+
+
+Topic: CS501
+Start Time: Oct 21, 2021 01:57 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/xLQ2rhS5CcoSs_Fwi4BcdZyPkSOpSBT1pERlUb_rVLy-d8R8F4oMjVDZOd_Q2L3t.zTllgtXqf8Mqp5_2
 
 
 ## Feedback, questions...etc
