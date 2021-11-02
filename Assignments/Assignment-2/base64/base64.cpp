@@ -1,9 +1,13 @@
+#define UNICODE
+#define _UNICODE
+
 #include <windows.h>
 #include <wincrypt.h>
 #include <tchar.h>
 #include <iostream>
 #include <vector>
 #include <cstdint>
+
 
 
 //hint: use CRYPT_STRING_BASE64
@@ -30,11 +34,12 @@ std::vector<uint8_t> b64Decode(std::wstring){
     // as before you should make two calls to ::CryptStringToBinaryW 
 }
 
-int wmain(int argc,  wchar_t* argv[]){
+int _tmain(int argc,  TCHAR** argv){
     if(argc !=3){
         std::wcout << L"Incorrect number of arguments" << std::endl;
         return 0;
     }
+    std::wcout << argv[1] << std::endl;
     std::wstring action = std::wstring(argv[1]);
     
     std::wstring dataString = std::wstring(argv[2]);

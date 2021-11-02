@@ -1,11 +1,12 @@
 
 ifeq ($(OS),Windows_NT)
-	ZIP=powershell /c Compress-Archive -Path .\base64\,.\http\ submission.zip
 	RM=powershell /c rm
-else
-	ZIP=zip -r submission.zip base64 http
+else	
 	RM=rm
 endif
+# choco install zip
+# ^ if missing 
+ZIP=ZIP=zip -r submission.zip base64 http
 
 all: zip
 

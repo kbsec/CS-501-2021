@@ -95,6 +95,26 @@ Meeting Recording:
 https://bostonu.zoom.us/rec/share/oJLt8P60h6c4UvSjugzkBcfZppLg1MO1zI7szYht1lD4J2HEtznXXs7hVziDFv0w.Qch7EHYhaFjdCDQG
 
 
+Topic: CS501
+Start Time : Oct 14, 2021 02:00 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/Tu4HUsBrgAyBIo61X5ZGeSl0-yMj220DMcjrRInyeEMPPuSQjpB-VbOxzMY_jWbj.6FvxX5r8mz5n_qv1
+
+
+Topic: CS501
+Start Time : Oct 19, 2021 02:01 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/nj5if5HE3qTYR1eG_x2nix-GYn5zi5A9RoxfRazrEdd-YyIJcNqiHlqRPkUGq0Dg.n27KTbNhT8Hm5RaZ
+
+
+Topic: CS501
+Start Time : Oct 21, 2021 01:57 PM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/jo25i-PMEmuYfy4x5H2nt6nDbnJgmypExlyHVF8foBResRiE7fUxKDfl2ix551eg.1cKvO00Z8XqY_YkJ
+
 
 
 ## Feedback, questions...etc

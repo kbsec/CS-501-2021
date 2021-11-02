@@ -1,7 +1,7 @@
 CC=zig cc
 CXX=g++
 CFLAGS=-target x86_64-windows-gnu 
-LDFLAGS= -lwinhttp  -municode
+LDFLAGS= -lwinhttp  -municode  -static
 PDB=-g
 BIN=bin
 
