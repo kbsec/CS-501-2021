@@ -146,5 +146,12 @@ Start Time: Nov 11, 2021 01:55 PM
 Meeting Recording:
 https://bostonu.zoom.us/rec/share/rwR6hMbnd_ugvi9d7dL7awDcKD99_9588Ww_PkMgK2XcDOc5y7ndg9JDZgYPL4uD.mafQ281pn6KLu-hO
 
+Topic: CS501
+Start Time: Nov 14, 2021 06:58 AM
+
+Meeting Recording:
+https://bostonu.zoom.us/rec/share/HHZzWcVdmvWuxYSSzNuoQw0JGWBGzUqSzmN1Jlrjn32e5wr-G3XThPHcs_R7wtwX.xz6tSi1_1ubA5WfN
+
+
 ## Feedback, questions...etc
 Feel free to reach out on Keybase (KBintel)
