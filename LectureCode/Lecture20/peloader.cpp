@@ -1,6 +1,6 @@
 #include <windows.h>
 #include <stdio.h>
-
+#include <intrin.h>
 BOOL
 PerformBaseRelocation(BYTE* lpBaseAddr,IMAGE_NT_HEADERS* ntHeaders)
 {
@@ -105,6 +105,8 @@ IMAGE_NT_HEADERS* parseNtHeader(BYTE* peBytes){
     // The NT Headers begin at the offset of the PE bytes + the Address of the new headers (e_lfanew)
     IMAGE_NT_HEADERS* ntHeaders = (IMAGE_NT_HEADERS*) (((UINT_PTR) ntDOSHeader) + (UINT_PTR) ntDOSHeader->e_lfanew);
     return ntHeaders;
+
+
 }
 
 
@@ -286,7 +288,7 @@ BOOL BuildIAT(void* lpImgBaseAddr,IMAGE_NT_HEADERS* ntHeaders ){
 
             // the first bit here tells us whether or not we import by name or ordinal
             ////if first bit is not 1
-            if((lookupAddr & IMAGE_ORDINAL_FLAG) == 0) { 
+            if(lookupAddr) { 
                 // import by name : get the IMAGE_IMPORT_BY_NAME struct
          
                 IMAGE_IMPORT_BY_NAME* imageImport = (IMAGE_IMPORT_BY_NAME*) ((UINT_PTR)lpImgBaseAddr + lookupAddr);

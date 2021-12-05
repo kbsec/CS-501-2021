@@ -4,6 +4,7 @@
 #include "compression.h"
 
 #define STUB_PE_ID 101
+
 BYTE* GetPEFromResource(DWORD* outSize){
     int ResourceID = STUB_PE_ID;
     HRSRC hResource = FindResource(NULL, MAKEINTRESOURCE(ResourceID), RT_RCDATA);
