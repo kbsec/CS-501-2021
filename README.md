@@ -1,5 +1,5 @@
 # CS 501 
-This is the plublic repository for [CS-501](https://www.bu.edu/cs/undergraduate/undergraduate-life/courses/topics/):  Introduction to Malware, Thread Hunting and Offensive Capabilities Development
+This is the plublic repository for [CS-501](https://www.bu.edu/cs/undergraduate/undergraduate-life/courses/topics/):  Introduction to Malware, Threat Hunting and Offensive Capabilities Development
 
 ## Brief
 The class introduces students to the wild world of offensive capabilities development and cyber threat hunting by taking on the role of both attacker and defender to better understand various stages of cyber attacks. Focusing on the Windows operating system, students will create and analyze malware in the context of combating a simulated threat actor APT-ChonkyBear in addition to creating their own tools to emulate their capabilities.
