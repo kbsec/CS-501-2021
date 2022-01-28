@@ -1,3 +1,5 @@
+ARCHIVED: Please see https://github.com/kbsec/CS-501-malware-course-public for the updated course 🤠
+
 # CS 501 
 This is the plublic repository for [CS-501](https://www.bu.edu/cs/undergraduate/undergraduate-life/courses/topics/):  Introduction to Malware, Threat Hunting and Offensive Capabilities Development
 
